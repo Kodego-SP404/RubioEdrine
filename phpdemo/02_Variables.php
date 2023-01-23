@@ -22,3 +22,52 @@
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
 
+$fname = 'Edrine'; //String can be single or double quotes
+$name = 31; //integer
+$hasKids = True; //Boolean
+$cashOnHand = 10; //float
+
+// echo "$fname is $age years old";
+// echo $hasKids;
+// var_dump($hasKids);
+// echo $cashOnHand;
+// var_dump($cashOnHand);
+
+//This will not work
+// echo '$fname is $age years old';
+
+//concatenante strings
+// echo "$fname is $age years old";
+// echo "<br>";
+echo $fname . ' is ' . $age . ' years old';
+echo nl2br("\n$fname is $age years old");
+
+//Arithmetic Operators
+echo "<br>";
+
+echo '5' + '5';
+$x = '5' + '5';
+echo "<br>";
+echo $x;
+echo "<br>";
+var_dump($x);
+echo "<br>";
+echo 5 + 5;
+
+echo "<br>";
+echo 10 - 6;
+
+echo "<br>";
+echo 95 *95;
+
+echo "<br>";
+echo 500 / 25;
+
+//Constants - Cannot be changed
+echo "<br>";
+define('HOST', 'localhost');
+define('DB_NAME', 'dev_db');
+
+var_dump(HOST);
+
+

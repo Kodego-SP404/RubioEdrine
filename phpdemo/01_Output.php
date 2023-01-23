@@ -29,7 +29,7 @@
 
 //var_dump - More info data type and length
 // var_dump('Hello');
-var_dump([1,2,3]);
+var_dump([1,2,3,4]);
 
 
 

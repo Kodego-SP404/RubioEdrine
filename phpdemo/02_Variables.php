@@ -1,4 +1,5 @@
-<?
+
+<?php
 /* ----- Variables & Data Types ----- */
 
 /* --------- PHP Data Types --------- */
@@ -23,7 +24,7 @@
 */
 
 $fname = 'Edrine'; //String can be single or double quotes
-$name = 31; //integer
+$age = 31; //integer
 $hasKids = True; //Boolean
 $cashOnHand = 10; //float
 
@@ -44,13 +45,15 @@ echo nl2br("\n$fname is $age years old");
 
 //Arithmetic Operators
 echo "<br>";
-
 echo '5' + '5';
 $x = '5' + '5';
+
 echo "<br>";
 echo $x;
+
 echo "<br>";
 var_dump($x);
+
 echo "<br>";
 echo 5 + 5;
 
@@ -69,5 +72,7 @@ define('HOST', 'localhost');
 define('DB_NAME', 'dev_db');
 
 var_dump(HOST);
+
+
 
 
